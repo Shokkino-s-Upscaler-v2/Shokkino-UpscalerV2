@@ -6,7 +6,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        string currentVersion = "2025.01.30.001";
+        string currentVersion = "2025.03.08.002";
         string latestVersion = await CheckForUpdatesAsync();
 
         if (latestVersion != currentVersion)
